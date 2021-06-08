@@ -1442,7 +1442,7 @@ class Ui_Dialog(object):
 
         # Ok, cancel button
         btn = QtWidgets.QDialogButtonBox(QtWidgets.QDialogButtonBox.Ok | QtWidgets.QDialogButtonBox.Cancel,
-                                     QtCore.Qt.Horizontal, self.menu)
+                                     QtCore.Qt.Vertical, self.menu)
 
         # ok selected                             
         btn.accepted.connect(self.menuClose)
@@ -1541,7 +1541,7 @@ class Ui_Dialog(object):
 
         # Ok, cancel button
         btn = QtWidgets.QDialogButtonBox(QtWidgets.QDialogButtonBox.Ok | QtWidgets.QDialogButtonBox.Cancel,
-                                     QtCore.Qt.Horizontal, self.menu)
+                                     QtCore.Qt.Vertical, self.menu)
 
         # ok selected                             
         btn.accepted.connect(self.menuCloseDistrict)
@@ -1642,7 +1642,7 @@ class Ui_Dialog(object):
 
         # Ok, cancel button
         btn = QtWidgets.QDialogButtonBox(QtWidgets.QDialogButtonBox.Ok | QtWidgets.QDialogButtonBox.Cancel,
-                                     QtCore.Qt.Horizontal, self.menu)
+                                     QtCore.Qt.Vertical, self.menu)
 
         # ok selected                             
         btn.accepted.connect(self.menuCloseFacilityName)
@@ -1747,7 +1747,7 @@ class Ui_Dialog(object):
 
         # Ok, cancel button
         btn = QtWidgets.QDialogButtonBox(QtWidgets.QDialogButtonBox.Ok | QtWidgets.QDialogButtonBox.Cancel,
-                                     QtCore.Qt.Horizontal, self.menu)
+                                     QtCore.Qt.Vertical, self.menu)
 
         # ok selected                             
         btn.accepted.connect(self.menuCloseMonth)
@@ -1851,7 +1851,7 @@ class Ui_Dialog(object):
 
         # Ok, cancel button
         btn = QtWidgets.QDialogButtonBox(QtWidgets.QDialogButtonBox.Ok | QtWidgets.QDialogButtonBox.Cancel,
-                                     QtCore.Qt.Horizontal, self.menu)
+                                     QtCore.Qt.Vertical, self.menu)
 
         # ok selected                             
         btn.accepted.connect(self.menuCloseYear)
